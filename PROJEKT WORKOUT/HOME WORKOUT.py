@@ -1,11 +1,11 @@
 # -*- coding: cp1252 -*-
 import webbrowser
 print('HELLO! WELCOME TO WORKOUT PROGRAM!')
-file=open("C:/Users/Ante/Desktop/PROJEKT WORKOUT/brojac.txt",'r') #INSERT YOUR DIRECTORY 
+file=open("./brojac.txt",'r') #INSERT YOUR DIRECTORY 
 dan= len(file.readlines(  ))
 print ('Today is your '+str(dan)+'. day!')
 file.close()
-file=open("C:/Users/Ante/Desktop/PROJEKT WORKOUT/brojac.txt",'a') #INSERT YOUR DIRECTORY
+file=open("./brojac.txt",'a') #INSERT YOUR DIRECTORY
 file.write('\n1')
 file.close()
 if dan%7==1:
@@ -19,7 +19,7 @@ if dan%7==1:
         webbrowser.open('https://www.online-stopwatch.com/full-screen-interval-timer/?c=w5sb8ndghr&fbclid=IwAR0Ko_X5o_ejnHhLTdQVv6imYzr7f7fD0pOAORZNypDKVY_cjpLz54g1L7I')
     b=int(input('Press 1 to get exercises for today!'))
     if b==1:
-        file=open("C:/Users/Ante/Desktop/PROJEKT WORKOUT/legs_abs.txt",'r') #INSERT YOUR DIRECTORY
+        file=open("./legs_abs.txt",'r') #INSERT YOUR DIRECTORY
         print(file.read())
         file.close()
     print('That is it! Enjoy!')
@@ -30,7 +30,7 @@ elif dan%7==2:
         webbrowser.open('https://www.youtube.com/watch?v=AK6yZKvJ0uY') #chest       
     b=int(input('Press 1 to get exercises for today!'))
     if b==1:
-        file=open("C:/Users/Ante/Desktop/PROJEKT WORKOUT/chest.txt",'r') #INSERT YOUR DIRECTORY
+        file=open("./chest.txt",'r') #INSERT YOUR DIRECTORY
         print (file.read())
         file.close()
     print('That is it! Enjoy!')
@@ -45,7 +45,7 @@ elif dan%7==3:
         webbrowser.open('https://www.online-stopwatch.com/full-screen-interval-timer/?c=w5sb8ndghr&fbclid=IwAR0Ko_X5o_ejnHhLTdQVv6imYzr7f7fD0pOAORZNypDKVY_cjpLz54g1L7I')
     b=int(input('Press 1 to get exercises for today!'))
     if b==1:
-        file=open("C:/Users/Ante/Desktop/PROJEKT WORKOUT/back_abs.txt",'r') #INSERT YOUR DIRECTORY
+        file=open("./back_abs.txt",'r') #INSERT YOUR DIRECTORY
         print (file.read())
         file.close()
     print('That is it! Enjoy!')
@@ -63,7 +63,7 @@ elif dan%7==5:
         webbrowser.open('https://www.online-stopwatch.com/full-screen-interval-timer/?c=w5sb8ndghr&fbclid=IwAR0Ko_X5o_ejnHhLTdQVv6imYzr7f7fD0pOAORZNypDKVY_cjpLz54g1L7I')
     b=int(input('Press 1 to get exercises for today!'))
     if b==1:
-        file=open("C:/Users/Ante/Desktop/PROJEKT WORKOUT/shoulder_abs.txt",'r') #INSERT YOUR DIRECTORY
+        file=open("./shoulder_abs.txt",'r') #INSERT YOUR DIRECTORY
         print (file.read())
         file.close()
     print('That is it! Enjoy!')
@@ -74,7 +74,7 @@ elif dan%7==6:
         webbrowser.open('https://www.youtube.com/watch?v=u7MVeTlDX9A') #arms      
     b=int(input('Press 1 to get exercises for today!'))
     if b==1:
-        file=open("C:/Users/Ante/Desktop/PROJEKT WORKOUT/arms.txt",'r') #INSERT YOUR DIRECTORY
+        file=open("./arms.txt",'r') #INSERT YOUR DIRECTORY
         print (file.read())
         file.close()
     print('That is it! Enjoy!')
