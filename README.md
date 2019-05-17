@@ -1,8 +1,5 @@
 HELLO!
-Welcome to my program HOME WORKOUT!
-
-IMPORTANT!!!!!!
-In python editor select your file destination(I made a comment where you have to put your destination).
+Welcome to my program Home Workout! 
 
 NOTE!
 This is home workout program, no equipment needed.
